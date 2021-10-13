@@ -1,0 +1,1461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>NSDF TestBed</name>
+    <description/>
+    
+    <Style id="icon-entrypoint-normal">
+      <IconStyle><scale>5</scale><Icon><href>images/entrypoint.png</href></Icon></IconStyle>
+      <LabelStyle><scale>2</scale></LabelStyle>
+    </Style>
+    <Style id="icon-entrypoint-highlight">
+      <IconStyle> <scale>5</scale><Icon><href>images/entrypoint.png</href> </Icon></IconStyle>
+      <LabelStyle><scale>2</scale></LabelStyle>
+    </Style>
+    <StyleMap id="icon-entrypoint">
+      <Pair><key>normal</key><styleUrl>#icon-entrypoint-normal</styleUrl></Pair>
+      <Pair><key>highlight</key><styleUrl>#icon-entrypoint-highlight</styleUrl></Pair>
+    </StyleMap>
+    
+    
+    <Style id="icon-stashcache-normal">
+      <IconStyle><scale>5</scale><Icon><href>images/stashcache.png</href></Icon></IconStyle>
+      <LabelStyle><scale>2</scale></LabelStyle>
+    </Style>
+    <Style id="icon-stashcache-highlight">
+      <IconStyle> <scale>5</scale><Icon><href>images/stashcache.png</href> </Icon></IconStyle>
+      <LabelStyle><scale>2</scale></LabelStyle>
+    </Style>
+    <StyleMap id="icon-stashcache">
+      <Pair><key>normal</key><styleUrl>#icon-stashcache-normal</styleUrl></Pair>
+      <Pair><key>highlight</key><styleUrl>#icon-stashcache-highlight</styleUrl></Pair>
+    </StyleMap>    
+    
+    <Style id="icon-both-normal">
+      <IconStyle><scale>5</scale><Icon><href>images/both.png</href></Icon></IconStyle>
+      <LabelStyle><scale>2</scale></LabelStyle>
+    </Style>
+    <Style id="icon-both-highlight">
+      <IconStyle> <scale>5</scale><Icon><href>images/both.png</href> </Icon></IconStyle>
+      <LabelStyle><scale>2</scale></LabelStyle>
+    </Style>
+    <StyleMap id="icon-both">
+      <Pair><key>normal</key><styleUrl>#icon-both-normal</styleUrl></Pair>
+      <Pair><key>highlight</key><styleUrl>#icon-both-highlight</styleUrl></Pair>
+    </StyleMap>     
+    
+    
+    <Placemark>
+      <name>SCI</name>
+      <description>
+      <![CDATA[
+			<h1>Scientific Computing and Imaging Institute</h1><br>
+				<img src='images/sci.png' width="100%"><br>
+				The National Science Foundation (NSF) awarded a $5.6 million project to a team of 
+				researchers led by School of Computing professor Valerio Pascucci (pictured), 
+				who is also director of the Center for Extreme Data Management in the College of Engineering, 
+				to build the critical infrastructure needed to connect large-scale experimental and computational 
+				facilities and recruit others to data-driven sciences.
+      ]]>
+      </description>
+      <styleUrl>#icon-entrypoint</styleUrl>
+      <Point>
+        <coordinates>-111.8487194,40.7658975,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>UC San Diego</name>
+      <description>
+      <![CDATA[
+      
+				<h1>Open Science Grid</h1><br>
+				<img src='http://nsdf.sci.utah.edu/templates/rt_requiem/custom/images/images/osg.jpg' width="100%"><br>
+				The OSG is a consortium of research collaborations, campuses, national laboratories and software providers dedicated 
+				to the advancement of all open science via the practice of distributed High Throughput Computing.`);
+				
+				<h1>CloudBank</h1><br>
+				<img src='images/cloudbank.jpg' width="100%"><br>
+				The CloudBank project and associated portal software, outreach and training materials, and experience in negotiating 
+				and delivering public cloud services significantly advance the state of the practice and understanding of 
+				how to use these resources in computer science research and education.`);				
+				
+      ]]>
+      </description>
+      <styleUrl>#icon-both</styleUrl>
+      <Point>
+        <coordinates>-117.2390271,32.8844113,0</coordinates>
+      </Point>
+    </Placemark>    
+    
+    <Placemark>
+      <name>ICECUBE</name>
+      <description>
+      <![CDATA[
+					<h1>IceCube Neutrino Observatory</h1><br>
+					<img src='images/icecube.jpg' width="100%"><br>
+					The IceCube Neutrino Observatory is the first detector of its kind, designed to observe the cosmos from deep within the South Pole ice. 
+					An international group of scientists responsible for the scientific research makes up the IceCube Collaboration
+      ]]>
+      </description>
+      <styleUrl>#icon-entrypoint</styleUrl>
+      <Point>
+        <coordinates>-63.453056, 89.99,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>CHESS</name>
+      <description>
+      <![CDATA[
+			<h1>Cornell High Energy Synchrotron Source</h1><br>
+			<img src='images/chess.jpg' width="100%"><br>
+			The scientists and engineers at CHESS and in the accelerator physics and superconducting radio-frequency groups are designing, 
+			building, and testing novel state-of-the-art technologies that will push forward the capabilities for x-ray science in all disciplines.
+      ]]>
+      </description>
+      <styleUrl>#icon-entrypoint</styleUrl>
+      <Point>
+        <coordinates>-76.47200244864601, 42.44500860206326,0</coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>XENON</name>
+      <description>
+      <![CDATA[
+				<h1>XENON</h1><br>
+				<img src='images/XENON_ICON.jpg' width="100%"><br>
+				The XENON collaboration uses multi-ton of liquid xenon detectors at the Gran Sasso Underground Laboratory in Italy to 
+				search for the elusive dark matter in the Universe.
+      ]]>
+      </description>
+      <styleUrl>#icon-entrypoint</styleUrl>
+      <Point>
+        <coordinates>
+         13.57480481842245, 42.45333040807151,0
+        </coordinates>
+      </Point>
+    </Placemark>   
+    
+		<!-- for minority I am using GPS position of Jackson state university -->
+    <Placemark>
+      <name>MSCC</name>
+      <description>
+      <![CDATA[
+				<h1>The Minority Serving - Cyberinfrastructure Consortium (MS-CC)</h1><br>
+				<img src='images/ms-cc.jpg' width="100%"><br>
+				The Minority Serving - Cyberinfrastructure Consortium (MS-CC) envisions a transformational partnership to promote 
+				advanced cyberinfrastructure capabilities on the campuses of Historically Black Colleges and Universities, 
+				Hispanic-Serving Institutions, Tribal Colleges and Universities, and other Minority Serving Institutions.
+      ]]>
+      </description>
+      <styleUrl>#icon-entrypoint</styleUrl>
+      <Point>
+        <coordinates>-90.2064144665847, 32.29708457975886, 0</coordinates> 
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>MGHPCC</name>
+      <description>
+      <![CDATA[
+				<h1>The Massachusetts Green High Performance Computing Center</h1><br>
+				<img src='images/mghpcc.jpg' width="100%"><br>
+				The Massachusetts Green High Performance Computing Center (MGHPCC) provides state of the art infrastructure for 
+				computationally intensive research that is indispensable in the increasingly sensor and data-rich environments of modern science and engineering.
+      ]]>
+      </description>
+      <styleUrl>#icon-entrypoint</styleUrl>
+      <Point>
+        <coordinates>-72.60730935986383, 42.202772740711154,0</coordinates> 
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>Johns Hopkins University</name>
+      <description>Pod 6</description>
+      <styleUrl>#icon-entrypoint</styleUrl>
+      <Point>
+        <coordinates>
+          -76.6205177,39.3299013,0
+        </coordinates>
+      </Point>
+    </Placemark>    
+    
+    <Placemark>
+      <name>New York</name>
+      <description><![CDATA[NEWY<br>ESnet6 Name: NEWY32AOA<br>Long Name: Avenue of the America NYSERNet HUB<br>Colo Provider:<br>Address:<br>32 Avenue of the Americas (aka 32 Sixth Ave)<br>24th Fl, NYSERNet<br>Suite 001<br>New York, NY 10013]]></description>
+      <styleUrl>#icon-stashcache</styleUrl>
+      <Point>
+        <coordinates>
+          -74.004517,40.720032,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>TACC</name>
+      <description><![CDATA[
+      	Texas Advanced Computing Center (TACC)<br>J. J. 
+      	Pickle Research Campus<br>The University of Texas at Austin<br>10100 Burnet Rd, Austin, TX 78758
+      		]]></description>
+      <styleUrl>#icon-entrypoint</styleUrl>
+      <Point>
+        <coordinates>
+          -97.743057,30.267153,0
+        </coordinates>
+      </Point>
+    </Placemark>        
+    
+    <Placemark>
+      <name>UNC</name>
+      <description><![CDATA[
+      	University of Nebrasca
+      ]]></description>
+      <styleUrl>#icon-stashcache</styleUrl>
+      <Point>
+        <coordinates>
+          -96.69996130841838,40.82036299159995,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>NCSA</name>
+      <description><![CDATA[NCSA<br>University of Illinois at Urbana-Champaign Data Center<br>1011 W. Springfield<br>Avenue, Urbana, IL]]></description>
+      <styleUrl>#icon-stashcache</styleUrl>
+      <Point>
+        <coordinates>
+          -88.207458,40.112461,0
+        </coordinates>
+      </Point>
+    </Placemark>    
+    
+    <Placemark>
+      <name>University of Michigan</name>
+      <description><![CDATA[MICH<br>Michigan Academic Computing Center (MACC)<br>1000 Oakbrook Dr<br>Ann Arbor, MI 48104]]></description>
+      <styleUrl>#icon-entrypoint</styleUrl>
+      <Point>
+        <coordinates>
+          -83.743034,42.280827,0
+        </coordinates>
+      </Point>
+    </Placemark>
+        
+    <Placemark>
+      <name>University of Tennessee</name>
+      <description>Pod 5</description>
+      <styleUrl>#icon-entrypoint</styleUrl>
+      <Point>
+        <coordinates>
+          -83.9294564,35.9544013,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    
+
+    <Placemark>
+      <name>University of Kentucky</name>
+      <description>UKY</description>
+      <styleUrl>#icon-entrypoint</styleUrl>
+      <Point>
+        <coordinates>
+          -84.503869,38.030925,0
+        </coordinates>
+      </Point>
+    </Placemark>
+        
+    <Placemark>
+      <name>The University of Chicago</name>
+      <description>Pod 20</description>
+      <styleUrl>#icon-stashcache</styleUrl>
+      <Point>
+        <coordinates>
+          -87.5987133,41.7886079,0
+        </coordinates>
+      </Point>
+    </Placemark>    
+    
+		<!-- TODO! Where/how to add BDH, GOFAIR, OSN ? -->
+
+    <Placemark>
+      <name>San diego- ICECUBE</name>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -117.2390271,32.8844113,0
+          -63.453056,89.99,0
+        </coordinates>
+      </LineString>
+    </Placemark>    
+         
+    <Placemark>
+      <name>WASH- XENON</name>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -77.211598,38.920047,0
+          13.57480481842245,42.45333040807151,0
+        </coordinates>
+      </LineString>
+    </Placemark>   
+    
+    
+    <!--
+    <Placemark>
+      <name>Washington</name>
+      <description><![CDATA[WASH<br>ESnet6 Name: WASH<br>Long Name: CenturyLink-McLean<br>Colo Provider: CenturyLink<br>Address:<br>1755 Old Meadow Road<br>2nd Floor, Suite S013<br>McLean, VA 22102]]></description>
+      <styleUrl>#icon-stashcache</styleUrl>
+      <Point>
+        <coordinates>
+          -77.211598,38.920047,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>New York</name>
+      <description><![CDATA[NEWY<br>ESnet6 Name: NEWY32AOA<br>Long Name: Avenue of the America NYSERNet HUB<br>Colo Provider:<br>Address:<br>32 Avenue of the Americas (aka 32 Sixth Ave)<br>24th Fl, NYSERNet<br>Suite 001<br>New York, NY 10013]]></description>
+      <styleUrl>#icon-stashcache</styleUrl>
+      <Point>
+        <coordinates>
+          -74.004517,40.720032,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>Atlanta</name>
+      <description><![CDATA[ATLA<br>ESnet6 Name: ATLA<br>Long Name: CenturyLink - Atlanta - Peachtree<br>Colo Provider: CenturyLink<br>Address:<br>180 Peachtree<br>4th Floor, Suite S015<br>Atlanta, GA 30303]]></description>
+      <styleUrl>#icon-stashcache</styleUrl>
+      <Point>
+        <coordinates>
+          -84.387971,33.758706,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>Kansas City</name>
+      <description><![CDATA[Kansas City<br>KANS<br>ESnet6 Name: KANS<br>Long Name: CenturyLink - Kansas City<br>Colo Provider: CenturyLink<br>Address:<br>1100 Walnut Street<br>5th Floor<br>Rm 501, Suite S009<br>Kansas City, MO 64106]]></description>
+      <styleUrl>#icon-stashcache</styleUrl>
+      <Point>
+        <coordinates>
+          -94.58238,39.100855,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>Seattle</name>
+      <description><![CDATA[SEAT<br>ESnet6 Name: SEAT<br>Long Name: Seattle - Westin Building<br>Colo Provider: Westin Building<br>Address:<br>2001 6th Ave<br>Rm 802<br>Seattle, WA 98105]]></description>
+      <styleUrl>#icon-stashcache</styleUrl>
+      <Point>
+        <coordinates>
+          -122.322514,47.654477,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    
+
+    <Placemark>
+      <name>NCSA</name>
+      <description><![CDATA[NCSA<br>University of Illinois at Urbana-Champaign Data Center<br>1011 W. Springfield<br>Avenue, Urbana, IL]]></description>
+      <styleUrl>#icon-stashcache</styleUrl>
+      <Point>
+        <coordinates>
+          -88.207458,40.112461,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>UMD MAX</name>
+      <description><![CDATA[MAX<br>University of Maryland College Park Data Center<br>Patuxent Building<br>4161 Fieldhouse Dr<br>Rm 0105 (1st floor)<br>Rack 0206<br>College Park, MD 20742]]></description>
+      <styleUrl>#icon-stashcache</styleUrl>
+      <Point>
+        <coordinates>
+          -76.942662,38.987043,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>Rutgers</name>
+      <description>RUTG</description>
+      <styleUrl>#icon-stashcache</styleUrl>
+      <Point>
+        <coordinates>
+          -74.447447,40.500835,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>RENCI</name>
+      <description>RENC</description>
+      <styleUrl>#icon-stashcache</styleUrl>
+      <Point>
+        <coordinates>
+          -79.018726,35.939471,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>FIU</name>
+      <description>FIU/AMPATH</description>
+      <styleUrl>#icon-stashcache</styleUrl>
+      <Point>
+        <coordinates>
+          -80.376879,25.756263,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>PSC</name>
+      <description>PSC</description>
+      <styleUrl>#icon-stashcache</styleUrl>
+      <Point>
+        <coordinates>
+          -79.948832,40.445754,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>TACC</name>
+      <description><![CDATA[Texas Advanced Computing Center (TACC)<br>J. J. Pickle Research Campus<br>The University of Texas at Austin<br>10100 Burnet Rd, Austin, TX 78758]]></description>
+      <styleUrl>#icon-stashcache</styleUrl>
+      <Point>
+        <coordinates>
+          -97.743057,30.267153,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>LEARN</name>
+      <description>LERN</description>
+      <styleUrl>#icon-stashcache</styleUrl>
+      <Point>
+        <coordinates>
+          0,0,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>UMASS Amherst</name>
+      <description><![CDATA[MASS<br>Massachusetts Green High Performance Computing Center (MGHPCC)<br>100 Bigelow Street<br>Holyoke MA 01040]]></description>
+      <styleUrl>#icon-stashcache</styleUrl>
+      <Point>
+        <coordinates>
+          -72.530089,42.386831,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>Georgia Tech/SOX</name>
+      <description>GSOX</description>
+      <styleUrl>#icon-stashcache</styleUrl>
+      <Point>
+        <coordinates>
+          -84.396306,33.775816,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>Clemson</name>
+      <description>CLEM</description>
+      <styleUrl>#icon-stashcache</styleUrl>
+      <Point>
+        <coordinates>
+          -82.836442,34.675629,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>Indiana University</name>
+      <description>IU</description>
+      <styleUrl>#icon-stashcache</styleUrl>
+      <Point>
+        <coordinates>
+          -86.512493,39.175286,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>GPN</name>
+      <description>GPN</description>
+      <styleUrl>#icon-stashcache</styleUrl>
+      <Point>
+        <coordinates>
+          0,0,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>Princeton</name>
+      <description>PRIN</description>
+      <styleUrl>#icon-stashcache</styleUrl>
+      <Point>
+        <coordinates>
+          -74.649731,40.343688,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>UCSD</name>
+      <description><![CDATA[UCSD<br>San Diego San Diego Supercomputer Center (SDSC)<br>10100 Hopkins Dr<br>La Jolla, CA 92093]]></description>
+      <styleUrl>#icon-stashcache</styleUrl>
+      <Point>
+        <coordinates>
+          -117.239038,32.884691,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>Florida International University</name>
+      <description>Pod 16</description>
+      <styleUrl>#icon-stashcache</styleUrl>
+      <Point>
+        <coordinates>
+          -80.3768786,25.7561275,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>Vera Rubin Observatory</name>
+      <description>Pod 15</description>
+      <styleUrl>#icon-stashcache</styleUrl>
+      <Point>
+        <coordinates>
+          -70.7477216,-30.2447397,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>POLARBEAR / Simons Array</name>
+      <description>Pod 28</description>
+      <styleUrl>#icon-stashcache</styleUrl>
+      <Point>
+        <coordinates>
+          -67.7862247,-22.9582239,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>Auraria Library</name>
+      <description>Pod 14</description>
+      <styleUrl>#icon-stashcache</styleUrl>
+      <Point>
+        <coordinates>
+          -104.5248887,39.8784218,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>The University of Texas at El Paso</name>
+      <description>Pod 4</description>
+      <styleUrl>#icon-entrypoint</styleUrl>
+      <Point>
+        <coordinates>
+          -106.5046405,31.7709368,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    
+
+    
+    <Placemark>
+      <name>University of North Carolina at Chapel Hill</name>
+      <description>Pod 7</description>
+      <styleUrl>#icon-entrypoint</styleUrl>
+      <Point>
+        <coordinates>
+          -79.0469134,35.9049122,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>Northwestern University</name>
+      <description>Pod 8</description>
+      <styleUrl>#icon-entrypoint</styleUrl>
+      <Point>
+        <coordinates>
+          -87.675267,42.0564594,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>University of Michigan</name>
+      <description>Pod 10</description>
+      <styleUrl>#icon-entrypoint</styleUrl>
+      <Point>
+        <coordinates>
+          -83.7382241,42.2780436,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>Cornell High Energy Synchrotron Source</name>
+      <description>Pod 11</description>
+      <styleUrl>#icon-entrypoint</styleUrl>
+      <Point>
+        <coordinates>
+          -76.4720561,42.4448028,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>University of Massachusetts Amherst</name>
+      <description>Pod 12</description>
+      <styleUrl>#icon-entrypoint</styleUrl>
+      <Point>
+        <coordinates>
+          -72.5300515,42.3867598,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>NCAR Mesa Laboratory</name>
+      <description>Pod 17</description>
+      <styleUrl>#icon-entrypoint</styleUrl>
+      <Point>
+        <coordinates>
+          -105.2750307,39.9783179,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>University of Puerto Rico - Río Piedras Campus</name>
+      <description>Pod 18</description>
+      <styleUrl>#icon-entrypoint</styleUrl>
+      <Point>
+        <coordinates>
+          -66.0500407,18.4028091,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>University of Wisconsin-Madison</name>
+      <description>Pod 19, 27</description>
+      <styleUrl>#icon-entrypoint</styleUrl>
+      <Point>
+        <coordinates>
+          -89.4124875,43.076592,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    
+
+    
+    <Placemark>
+      <name>Syracuse University</name>
+      <description>Pod 21</description>
+      <styleUrl>#icon-entrypoint</styleUrl>
+      <Point>
+        <coordinates>
+          -76.1351158,43.0391534,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>University of Washington</name>
+      <description>Pod 22</description>
+      <styleUrl>#icon-entrypoint</styleUrl>
+      <Point>
+        <coordinates>
+          -122.3035199,47.6553351,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>National Ecological Observatory Network</name>
+      <description>Pod 23</description>
+      <styleUrl>#icon-entrypoint</styleUrl>
+      <Point>
+        <coordinates>
+          -105.5974607,39.8138375,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>National Optical Astronomy Observatory</name>
+      <description>Pod 24</description>
+      <styleUrl>#icon-entrypoint</styleUrl>
+      <Point>
+        <coordinates>
+          -110.9478901,32.2333545,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>University of Maryland</name>
+      <description>POD 26</description>
+      <styleUrl>#icon-entrypoint</styleUrl>
+      <Point>
+        <coordinates>
+          -76.9425543,38.9869183,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    
+    <Placemark>
+      <name>Michigan State University</name>
+      <description>POD 25</description>
+      <styleUrl>#icon-entrypoint</styleUrl>
+      <Point>
+        <coordinates>
+          -84.4821719,42.701848,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    
+ <Placemark>
+      <name>Jackson State University</name>
+      <description>Pod 9</description>
+      <styleUrl>#icon-entrypoint</styleUrl>
+      <Point>
+        <coordinates>
+          -90.2064252,32.2968851,0
+        </coordinates>
+      </Point>
+    </Placemark>
+   
+    
+    <Placemark>
+      <name>Texas Advanced Computing Center</name>
+      <description>Pod 1</description>
+      <styleUrl>#icon-stashcache</styleUrl>
+      <Point>
+        <coordinates>
+          -97.7253223,30.3900711,0
+        </coordinates>
+      </Point>
+    </Placemark>
+        
+    
+    -->
+    
+    
+    <!-- ************************************* CONNECTIONS ************************************* -->
+   
+   
+    <Style id="style-line-normal">
+      <LineStyle>
+        <color>ffa79700</color>
+        <width>1.2</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="style-line-highlight">
+      <LineStyle>
+        <color>ffa79700</color>
+        <width>1.8</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="style-line">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#style-line-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#style-line-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+   
+   
+    <Placemark>
+      <name>STAR---NEWY</name>
+      <description>STAR NEWY DWDM (ESnet6) 100 NEWY---STAR</description>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -87.617327,41.896176,0
+          -74.004517,40.720032,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>STAR---WASH</name>
+      <description>STAR WASH DWDM (ESnet6) 100 WASH---STAR</description>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -87.617327,41.896176,0
+          -77.211598,38.920047,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>STAR---WASH_Teracore</name>
+      <description>STAR-Tera WASH-Tera DWDM (ESnet6) 1000 WASH---STAR_Teracore</description>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -87.617327,41.896176,0
+          -77.211598,38.920047,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>STAR---ATLA</name>
+      <description>STAR ATLA DWDM (ESnet6) 100 ATLA---STAR</description>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -87.617327,41.896176,0
+          -84.387971,33.758706,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>STAR---DALL_Teracore</name>
+      <description>STAR-Tera DALL-Tera DWDM (ESnet6) 1000 DALL---STAR_Teracore</description>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -87.617327,41.896176,0
+          -96.819536,32.800513,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>STAR---KANS</name>
+      <description>STAR KANS DWDM (ESnet6) 100 KANS---STAR</description>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -87.617327,41.896176,0
+          -94.58238,39.100855,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>STAR---SALT</name>
+      <description>STAR SALT DWDM (ESnet6) 100 SALT---STAR</description>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -87.617327,41.896176,0
+          -111.954816,40.75629,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>STAR---DALL</name>
+      <description>STAR DALL DWDM (ESnet6) 100 DALL---STAR</description>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -87.617327,41.896176,0
+          -96.819536,32.800513,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>STAR---IU</name>
+      <description>STAR IU Layer2 100 IU---STAR</description>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -87.617327,41.896176,0
+          -86.512493,39.175286,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>STAR---MICH</name>
+      <description>STAR MICH DWDM 100 MICH---STAR</description>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -87.617327,41.896176,0
+          -83.743034,42.280827,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>STAR---NCSA</name>
+      <description>STAR NCSA DWDM 100 NCSA---STAR</description>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -87.617327,41.896176,0
+          -88.207458,40.112461,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>NEWY---WASH</name>
+      <description>NEWY WASH DWDM (ESnet6) 100 WASH---NEWY</description>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -74.004517,40.720032,0
+          -77.211598,38.920047,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>NEWY---RUTG</name>
+      <description>NEWY RUTG Layer2 100 RUTG---NEWY</description>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -74.004517,40.720032,0
+          -74.447447,40.500835,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>NEWY---PRIN</name>
+      <description>NEWY PRIN Layer2 100 PRIN---NEWY</description>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -74.004517,40.720032,0
+          -74.649731,40.343688,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>NEWY---MASS</name>
+      <description>NEWY MASS DWDM 100 MASS---NEWY</description>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -74.004517,40.720032,0
+          -72.530089,42.386831,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>WASH---MAX</name>
+      <description>WASH MAX DWDM 100 MAX---WASH</description>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -77.211598,38.920047,0
+          -76.942662,38.987043,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>WASH---ATLA</name>
+      <description>WASH ATLA DWDM (ESnet6) 100 ATLA---WASH</description>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -77.211598,38.920047,0
+          -84.387971,33.758706,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>WASH---RENC</name>
+      <description>WASH RENC Layer2 100 RENC---WASH</description>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -77.211598,38.920047,0
+          -79.018726,35.939471,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>WASH---PSC</name>
+      <description>WASH PSC Layer2 100 PSC---WASH</description>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -77.211598,38.920047,0
+          -79.948832,40.445754,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>ATLA---CLEM</name>
+      <description>ATLA CLEM Layer2 100 CLEM---ATLA</description>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -84.387971,33.758706,0
+          -82.836442,34.675629,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>ATLA---FIU</name>
+      <description>ATLA FIU DWDM 100 FIU---ATLA</description>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -84.387971,33.758706,0
+          -80.376879,25.756263,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>STAR---UKY</name>
+      <description>STAR UKY Layer2 100 UKY---STAR</description>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -87.617327,41.896176,0
+          -84.503869,38.030925,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>ATLA---DALL</name>
+      <description>ATLA DALL DWDM (ESnet6) 100 DALS---ATLA</description>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -84.387971,33.758706,0
+          -96.819536,32.800513,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>ATLA---GSOX</name>
+      <description>ATLA GSOX DIRECT 100 GSOX---ATLA</description>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -84.387971,33.758706,0
+          -84.396306,33.775816,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>DALL---SAND</name>
+      <description>DALL SAND DWDM (ESnet6) 100 SAND---DALL</description>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -96.819536,32.800513,0
+          -117.135898,32.809037,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>DALL---SAND_Teracore</name>
+      <description>DALL-Tera SAND-Tera DWDM (ESnet6) 1000 SAND---DALL_Teracore</description>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -96.819536,32.800513,0
+          -117.135898,32.809037,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>DALL---TACC</name>
+      <description>DALL TACC DWDM 100 TACC---DALL</description>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -96.819536,32.800513,0
+          -97.743057,30.267153,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>DALL---KANS</name>
+      <description>DALL KANS DWDM (ESnet6) 100 KANS---DALL</description>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -96.819536,32.800513,0
+          -94.58238,39.100855,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>KANS---SALT KANS</name>
+      <description>SALT DWDM (ESnet6) 100 SALT---KANS</description>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -77.211598,38.920047,0
+          -111.954816,40.75629,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>SALT---SAND</name>
+      <description>SALT SAND DWDM (ESnet6) 100 SAND---SALT</description>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -111.954816,40.75629,0
+          -117.135898,32.809037,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>SALT---UTAH</name>
+      <description>SALT UTAH DWDM 100 UTAH---SALT</description>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -111.954816,40.75629,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>SALT---SEAT</name>
+      <description>SALT SEAT DWDM (ESnet6) 100 SEAT---SALT</description>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -111.954816,40.75629,0
+          -122.322514,47.654477,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>SSEAT---SAND</name>
+      <description>SEAT SAND DWDM (ESnet6) 100 SAND---SEAT</description>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -122.322514,47.654477,0
+          -117.135898,32.809037,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>SAND---LBNL</name>
+      <description>SAND LBNL Layer2 100 LBNL---SAND</description>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -117.135898,32.809037,0
+          -122.186498,37.908901,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>SAND---SRIS</name>
+      <description>SAND SRIS Layer2 100 SRIS---SAND</description>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -117.135898,32.809037,0
+          -122.169783,37.427304,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>SAND---UCSD</name>
+      <description>SAND UCSD DWDM 100 UCSD---SAND</description>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -117.135898,32.809037,0
+          -117.239038,32.884691,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+     
+    
+    <Placemark>
+      <name>SaltLake-KansasCity</name>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -111.8487194,40.7658975,0
+          -105.0303712,39.9060019,0
+          -94.58238,39.100855,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>Washington-Chicago</name>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -89.4124875,43.076592,0
+          -93.2750001,44.9613534,0
+          -96.7906251,46.9169302,0
+          -111.0948244,45.6413647,0
+          -117.5328126,47.6916976,0
+          -122.3035199,47.6553351,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>Austin-CorpusChristi</name>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -97.743057,30.267153,0
+          -95.3710043,29.7740808,0
+          -97.3815023,27.7809418,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    
+    <Placemark>
+      <name>Line 21</name>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -122.3035199,47.6553351,0
+          -122.7178117,45.5104813,0
+          -123.0693742,44.0128631,0
+          -121.421425,38.466811,0
+          -122.186498,37.908901,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+   
+    <Placemark>
+      <name>Chicago-Dallas</name>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -117.239038,32.884691,0
+          -96.819536,32.800513,0
+          -87.617327,41.896176,0
+          -77.211598,38.920047,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+      
+    
+    
+    <Placemark>
+      <name>Syracuse-Ithaca</name>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -72.5300515,42.3867598,0
+          -73.7498457,42.6525143,0
+          -76.1351158,43.0391534,0
+          -76.4720561,42.4448028,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>Madison-Chicago</name>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -89.4124875,43.076592,0
+          -87.617327,41.896176,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>Florida-Chile</name>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -66.0500407,18.4028091,0
+          -80.3768786,25.7561275,0
+          -70.7477216,-30.2447397,0
+          -67.7862247,-22.9582239,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>Florida-PuertoRico</name>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -83.9294564,35.9544013,0
+          -84.387971,33.758706,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    <Placemark>
+      <name>Jackson-Austin-SanAntonio-Tucson-SanDiego</name>
+      <styleUrl>#style-line</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -90.2064252,32.2968851,0
+          -97.743057,30.267153,0
+          -98.327743,29.4525047,0
+          -106.6334071,31.4975323,0
+          -110.9478901,32.2333545,0
+          -117.2390271,32.8844113,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+    
+		<!-- TERACORE connection -->
+    <Style id="style-teracore-normal">
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>6.813</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="style-teracore-highlight">
+      <LineStyle>
+        <color>ff2dc0fb</color>
+        <width>10.2195</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="style-teracore">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#style-teracore-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#style-teracore-highlight</styleUrl>
+      </Pair>
+    </StyleMap>    
+    
+    <Placemark>
+      <name>TeraCore</name>
+      <styleUrl>#style-teracore</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          -117.239038,32.884691,0
+          -96.819536,32.800513,0
+          -87.617327,41.896176,0
+          -77.211598,38.920047,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+
+    
+  </Document>
+</kml>
