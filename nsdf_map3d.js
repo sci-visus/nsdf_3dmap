@@ -9,7 +9,10 @@ let Map3d = class {
 		Cesium.Ion.defaultAccessToken=token;
 		this.viewer = new Cesium.Viewer(div_name);
 		this.nodes={};
-		this.edges=[];
+		
+		var baseLayerPickerViewModel = this.viewer.baseLayerPicker.viewModel;
+		baseLayerPickerViewModel.selectedImagery = baseLayerPickerViewModel.imageryProviderViewModels[2];
+		
 	}
 	
 	//addNode

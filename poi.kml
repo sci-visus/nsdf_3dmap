@@ -100,7 +100,7 @@
       </description>
       <styleUrl>#icon-entrypoint</styleUrl>
       <Point>
-        <coordinates>-63.453056, 89.99,0</coordinates>
+        <coordinates>-4.5528016740553,-75.13986144732601,0</coordinates>
       </Point>
     </Placemark>
     
@@ -286,7 +286,7 @@
         <tessellate>1</tessellate>
         <coordinates>
           -117.2390271,32.8844113,0
-          -63.453056,89.99,0
+          -4.5528016740553,-75.13986144732601,0
         </coordinates>
       </LineString>
     </Placemark>    
